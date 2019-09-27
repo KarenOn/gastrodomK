@@ -1,0 +1,162 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+}
+
+.contenedor
+{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.inicio
+{
+    background: url(/detras1.jpg);
+    background-position: center center;
+    height: 100vh;
+    background-size: cover;
+    min-height: 60rem;
+}
+
+.sitio
+{
+    background-color: beige;
+    background-position: center center;
+    height: 25vh;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+.menuu
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0rem;
+    align-items: center;
+}
+
+.navegacion a
+{
+    color: #000000;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.navegacion a:last-of-type
+{
+    margin: 0;
+}
+
+.titulo
+{
+    display: flex;
+    margin-top: 50rem;
+}
+
+.noticias
+{
+    padding-top: 2rem;
+}
+
+.con 
+{
+    margin: 3rem;
+    width: 25rem;
+    font-size: 2.7rem;
+    float: left;
+    padding-left: 20rem;
+}
+
+.mapa
+{
+    padding-left: 20rem;
+    float: left;
+}
+
+p img
+{
+    width: 5rem;
+    padding-top: 5rem;
+}
+
+.cont
+{   
+    font-size: 2.7rem;
+}
+
+.servicio
+{
+    margin: 0 4rem 0 4rem;
+    font-size: 2.7rem;
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+    overflow: hidden;
+    padding-top: 2rem;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+ul li img
+{
+    height: 75vh;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.final
+{
+    background-color: dimgray;
+}
+
+.mapacontacto
+{
+    padding: 2rem 0 2rem 20.5rem;
+}
+
+.mapacontacto h2
+{
+    color: #ffffff;
+}
